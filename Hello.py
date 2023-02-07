@@ -41,3 +41,5 @@ print(name+" the temperature is "+str(fahrenhiet)+"fahrenhiet.")
 
 name1 = input("What is your name1? ")
 name2 = input("What is your name2? ")
+
+input(name1+name2)
