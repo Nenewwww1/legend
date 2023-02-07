@@ -38,3 +38,6 @@ celsius=float(input("Please enter temperature in celsius "))
 fahrenhiet=celsius*9/5+32
 
 print(name+" the temperature is "+str(fahrenhiet)+"fahrenhiet.")
+
+name1 = input("What is your name1? ")
+name2 = input("What is your name2? ")
