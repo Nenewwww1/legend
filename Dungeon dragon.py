@@ -10,17 +10,25 @@ print(''' ______                                                                
 ''')
 
 print('Welcome to Dungeon Dragon')
-player_name=print('What is your name,Adventurer?:')
+player_name=input('What is your name,Adventurer?:')
 
 health = 100
 damage = 20
 
-print('Welcome'+player_name+'your health is '+str(health)+'and can do damage'+str(damage))
+print('\nwelcome, ' + player_name + ' !you have ' + str(health) + 'health and can do damage' + str(damage))
 print('you came across a dragon and what will you do?')
 print('1.Fight')
 print('2. Run') 
  
 choice = int(input('Enter either 1 or 2: ')) 
 if choice == 1: 
-    print("Dragon run away ....") 
-print("Dragon chase you!")
+    print('Dragon got hit ....') 
+    print('Dragon angry!')
+elif choice ==2:
+    print('Dragon chase you ')
+    print('Blow fire to you does 20 damage')
+    health-=20
+    print('Your current health is '+str(health))
+else:
+    print("")
+
