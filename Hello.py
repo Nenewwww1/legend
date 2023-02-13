@@ -32,14 +32,36 @@
 #change celsius to fahrenhiet
 
 
-name = input("Please enter your name ")
-celsius=float(input("Please enter temperature in celsius "))
+#name = input("Please enter your name ")
+#celsius=float(input("Please enter temperature in celsius "))
 
-fahrenhiet=celsius*9/5+32
+#fahrenhiet=celsius*9/5+32
 
-print(name+" the temperature is "+str(fahrenhiet)+"fahrenhiet.")
+#print(name+" the temperature is "+str(fahrenhiet)+"fahrenhiet.")
 
-name1 = input("What is your name1? ")
-name2 = input("What is your name2? ")
 
-input(name1+name2)
+#marks_1 =input ("insert your marks 1")
+#marks_2 = input("insert your mark 2")
+#totalMarks=marks_1 + marks_2
+
+#print(totalMarks)
+
+name=input("Please insert your name :")
+grade=float(input("Please insert your grade :"))
+print("Hi!!!! "+name)
+
+if grade > 80:
+    print("You are briliant")
+    print("Your grade is "+str(grade))
+    print("Your mark is A")
+
+elif grade < 60:
+    print("You are okay!")
+    print("Your grade is "+str(grade))
+    print("Your mark is B")
+else:
+    print("Better luck next time")
+
+
+
+
